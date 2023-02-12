@@ -1,0 +1,216 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url(../fonts/Inter-Light.ttf) format(truetype);
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(../fonts/Inter-Regular.ttf) format(truetype);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(../fonts/Inter-Medium.ttf) format(truetype);
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(../fonts/Inter-ExtraBold.ttf) format(truetype);
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(../fonts/Inter-Bold.ttf) format(truetype);
+  font-weight: 700;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.body_css {
+  background: #555555;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0 30px;
+  margin: 0 52px;
+}
+
+.header {
+  margin-top: 9px;
+}
+.header .containerh {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .containerh .card {
+  margin-left: 6px;
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  align-items: center;
+}
+.header .containerh .card .circle_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 2px solid #d9d9d9;
+  overflow: hidden;
+}
+.header .containerh .card .info_header_name .pseudo_name {
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 54px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.header .containerh .card .info_header_name .grade_adm_moder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.header .containerh .card2 .chat_global_main {
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 54px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.header .containerh .card3 {
+  margin-right: 50px;
+}
+
+.body_css {
+  position: relative;
+}
+.body_css .section .container {
+  margin-top: 43px;
+}
+.body_css .section .container .chats_row {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.body_css .section .container .chats_row .card {
+  display: flex;
+  gap: 14px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.body_css .section .container .chats_row .card .circle_section {
+  width: 40px;
+  height: 40px;
+  background: #D9D9D9;
+  border-radius: 50%;
+}
+.body_css .section .container .chats_row .card .info_section_name .pseudo_name {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #C9C9C9;
+}
+.body_css .section .container .chats_row .card .info_section_name .grade_adm_moder {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.body_css .section .container .forms .form-input {
+  padding: 20px;
+  margin-top: 82px;
+  width: 1350px;
+  height: 50px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #C9C9C9;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #666666;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.body_css .section .container .forms .form-input::placeholder {
+  color: #C9C9C9;
+}
+.body_css .wrapper {
+  position: absolute;
+  top: -160px;
+  left: 0;
+  margin-top: 150px;
+  width: 100%;
+  height: 100vh;
+  background: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body_css .wrapper .form {
+  max-width: 500px;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.body_css .wrapper .form .form-input {
+  margin-top: 14px;
+  width: 100%;
+  height: 42px;
+  padding: 12px 16px;
+  border: 1px solid lightgray;
+  outline: none;
+  border-radius: 6px;
+}
+.body_css .wrapper .form .error small {
+  color: red;
+}
+.body_css .wrapper .form .error input {
+  border: 1px solid red;
+}/*# sourceMappingURL=main.css.map */

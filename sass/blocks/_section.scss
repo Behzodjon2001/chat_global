@@ -1,0 +1,109 @@
+.body_css {
+    position: relative;
+    .section {
+        .container {
+            margin-top: 43px;
+            .chats_row {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                // margin-right: 100px;
+                .card {
+                    display: flex;
+                    gap: 14px;
+                    justify-content: flex-start;
+                    align-items: center;
+                    .circle_section {
+                        width: 40px;
+                        height: 40px;
+                        background: #D9D9D9;
+                        border-radius: 50%;
+                    }
+                    .info_section_name {
+                        .pseudo_name {
+                            font-weight: 400;
+                            font-size: 15px;
+                            line-height: 18px;
+                            display: flex;
+                            align-items: center;
+                            color: #C9C9C9;
+                        }
+                        .grade_adm_moder {
+                            font-weight: 400;
+                            font-size: 15px;
+                            line-height: 18px;
+                            display: flex;
+                            align-items: center;
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+            }
+            .forms {
+                // max-width: 1300px;
+                // margin-left: 65px;
+                .form-input {
+                    padding: 20px;
+                    margin-top: 82px;
+                    width: 1350px;
+                    // max-width: 1000px;
+                    height: 50px;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 18px;
+                    display: flex;
+                    align-items: center;
+                    color: #C9C9C9;
+                    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                    background: #666666;
+                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                }
+                .form-input::placeholder {
+                    color: #C9C9C9;
+                }
+            }
+        }
+    }
+    .wrapper {
+        position: absolute;
+        top: -160px;
+        left: 0;
+        margin-top: 150px;
+        width: 100%;
+        height: 100vh;
+        background: #f9f9f9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .form {
+            max-width: 500px;
+            width: 100%;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            .form-input {
+                margin-top: 14px;
+                width: 100%;
+                height: 42px;
+                padding: 12px 16px;
+                border: 1px solid lightgray;
+                outline: none;
+                border-radius: 6px;
+            }
+            .error {
+                small {
+                    color: red;
+                }
+            }
+            .error {
+                input {
+                    border: 1px solid red;
+                }
+            }
+            .file_choose {
+                // background-color: #666666;
+            }
+        }
+    }
+}
