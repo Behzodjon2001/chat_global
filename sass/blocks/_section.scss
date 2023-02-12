@@ -110,18 +110,15 @@
 }
 
 @media screen and (min-width: 447px) and (max-width: 544px) {
-    .main_over {
+    .wrapper {
         overflow: hidden;
-        .wrapper {
-            overflow: hidden;
-            .form {
-                .we {
-                    width: 340px;
-                    margin-left: 15px;
-                    // height: 400px;
-                    .form-input {
-                        height: 42px;
-                    }
+        .form {
+            .we {
+                width: 340px;
+                margin-left: 15px;
+                // height: 400px;
+                .form-input {
+                    height: 42px;
                 }
             }
         }
@@ -129,18 +126,15 @@
 }
 
 @media screen and (min-width: 308px) and (max-width: 447px) {
-    .main_over {
-        overflow: hidden;
-        .wrapper {
-            // overflow: hidden;
-            .form {
-                .we {
-                    width: 200px;
-                    margin-left: 15px;
-                    // height: 400px;
-                    .form-input {
-                        height: 42px;
-                    }
+    .wrapper {
+        // overflow: hidden;
+        .form {
+            .we {
+                width: 200px;
+                margin-left: 15px;
+                // height: 400px;
+                .form-input {
+                    height: 42px;
                 }
             }
         }

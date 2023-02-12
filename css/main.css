@@ -216,29 +216,23 @@ img {
   border: 1px solid red;
 }
 @media screen and (min-width: 447px) and (max-width: 544px) {
-  .main_over {
+  .wrapper {
     overflow: hidden;
   }
-  .main_over .wrapper {
-    overflow: hidden;
-  }
-  .main_over .wrapper .form .we {
+  .wrapper .form .we {
     width: 340px;
     margin-left: 15px;
   }
-  .main_over .wrapper .form .we .form-input {
+  .wrapper .form .we .form-input {
     height: 42px;
   }
 }
 @media screen and (min-width: 308px) and (max-width: 447px) {
-  .main_over {
-    overflow: hidden;
-  }
-  .main_over .wrapper .form .we {
+  .wrapper .form .we {
     width: 200px;
     margin-left: 15px;
   }
-  .main_over .wrapper .form .we .form-input {
+  .wrapper .form .we .form-input {
     height: 42px;
   }
 }
