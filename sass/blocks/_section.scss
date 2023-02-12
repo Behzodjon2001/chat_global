@@ -1,4 +1,5 @@
 .body_css {
+    overflow: hidden;
     position: relative;
     .section {
         .container {
@@ -103,6 +104,52 @@
             }
             .file_choose {
                 // background-color: #666666;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 447px) and (max-width: 544px) {
+    .wrapper {
+        .form {
+            .we {
+                width: 340px;
+                margin-left: 15px;
+                // height: 400px;
+                .form-input {
+                    height: 42px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 308px) and (max-width: 447px) {
+    .wrapper {
+        .form {
+            .we {
+                width: 200px;
+                margin-left: 15px;
+                // height: 400px;
+                .form-input {
+                    height: 42px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 108px) and (max-width: 308px) {
+    .wrapper {
+        .form {
+            .we {
+                width: 135px;
+                margin-left: 15px;
+                // height: 400px;
+                .form-input {
+                    // width: 135px;
+                    height: 42px;
+                }
             }
         }
     }

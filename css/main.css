@@ -123,6 +123,7 @@ img {
 }
 
 .body_css {
+  overflow: hidden;
   position: relative;
 }
 .body_css .section .container {
@@ -213,4 +214,31 @@ img {
 }
 .body_css .wrapper .form .error input {
   border: 1px solid red;
+}
+@media screen and (min-width: 447px) and (max-width: 544px) {
+  .wrapper .form .we {
+    width: 340px;
+    margin-left: 15px;
+  }
+  .wrapper .form .we .form-input {
+    height: 42px;
+  }
+}
+@media screen and (min-width: 308px) and (max-width: 447px) {
+  .wrapper .form .we {
+    width: 200px;
+    margin-left: 15px;
+  }
+  .wrapper .form .we .form-input {
+    height: 42px;
+  }
+}
+@media screen and (min-width: 108px) and (max-width: 308px) {
+  .wrapper .form .we {
+    width: 135px;
+    margin-left: 15px;
+  }
+  .wrapper .form .we .form-input {
+    height: 42px;
+  }
 }/*# sourceMappingURL=main.css.map */
