@@ -110,14 +110,18 @@
 }
 
 @media screen and (min-width: 447px) and (max-width: 544px) {
-    .wrapper {
-        .form {
-            .we {
-                width: 340px;
-                margin-left: 15px;
-                // height: 400px;
-                .form-input {
-                    height: 42px;
+    .main_over {
+        overflow: hidden;
+        .wrapper {
+            overflow: hidden;
+            .form {
+                .we {
+                    width: 340px;
+                    margin-left: 15px;
+                    // height: 400px;
+                    .form-input {
+                        height: 42px;
+                    }
                 }
             }
         }
@@ -125,14 +129,18 @@
 }
 
 @media screen and (min-width: 308px) and (max-width: 447px) {
-    .wrapper {
-        .form {
-            .we {
-                width: 200px;
-                margin-left: 15px;
-                // height: 400px;
-                .form-input {
-                    height: 42px;
+    .main_over {
+        overflow: hidden;
+        .wrapper {
+            // overflow: hidden;
+            .form {
+                .we {
+                    width: 200px;
+                    margin-left: 15px;
+                    // height: 400px;
+                    .form-input {
+                        height: 42px;
+                    }
                 }
             }
         }
@@ -141,6 +149,7 @@
 
 @media screen and (min-width: 108px) and (max-width: 308px) {
     .wrapper {
+        overflow: hidden;
         .form {
             .we {
                 width: 135px;

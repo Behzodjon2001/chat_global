@@ -216,24 +216,36 @@ img {
   border: 1px solid red;
 }
 @media screen and (min-width: 447px) and (max-width: 544px) {
-  .wrapper .form .we {
+  .main_over {
+    overflow: hidden;
+  }
+  .main_over .wrapper {
+    overflow: hidden;
+  }
+  .main_over .wrapper .form .we {
     width: 340px;
     margin-left: 15px;
   }
-  .wrapper .form .we .form-input {
+  .main_over .wrapper .form .we .form-input {
     height: 42px;
   }
 }
 @media screen and (min-width: 308px) and (max-width: 447px) {
-  .wrapper .form .we {
+  .main_over {
+    overflow: hidden;
+  }
+  .main_over .wrapper .form .we {
     width: 200px;
     margin-left: 15px;
   }
-  .wrapper .form .we .form-input {
+  .main_over .wrapper .form .we .form-input {
     height: 42px;
   }
 }
 @media screen and (min-width: 108px) and (max-width: 308px) {
+  .wrapper {
+    overflow: hidden;
+  }
   .wrapper .form .we {
     width: 135px;
     margin-left: 15px;
